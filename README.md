@@ -40,7 +40,7 @@ var reload = require('browser-sync').reload;
 var channels = require('gulp-channels')(gulp, config);
 
 var src = config.src;
-gulp.task('ng-factory:src/views', function() {
+gulp.task('src/views', function() {
   var views = gulp.src(src.views, {cwd: src.cwd, base: src.cwd})
     .pipe(channels.views.src())
     .pipe(reload({stream: true}));
