@@ -1,0 +1,44 @@
+{
+  "name": "gulp-channels",
+  "version": "0.2.0",
+  "description": "All your pipe are belong to us",
+  "author": "Olivier Louvignes <olivier@mg-crea.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "homepage": "https://github.com/mgcrea/gulp-channels",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mgcrea/gulp-channels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgcrea/gulp-channels/issues"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gulp-angular-filesort": "^1.0.4",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-changed": "^1.0.0",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-concat-util": "^0.5.1",
+    "gulp-htmlmin": "^0.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-inject": "^1.0.2",
+    "gulp-jade": "^0.8.0",
+    "gulp-jshint": "^1.8.5",
+    "gulp-less": "^1.3.6",
+    "gulp-ng-annotate": "^0.3.3",
+    "gulp-nginclude": "^0.4.5",
+    "gulp-ngtemplate": "^0.2.3",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "lazypipe": "^0.2.2",
+    "main-bower-files": "^2.0.0",
+    "through2": "^0.6.2"
+  }
+}
