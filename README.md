@@ -32,7 +32,7 @@ var config = {
     dest: 'dist',
     tmp: '.tmp',
     index: 'index.{html,jade}',
-    views: '{,modules/*/}views/**/*.{html,jade}''
+    views: '{,modules/*/}views/**/*.{html,jade}'
   }
 };
 
