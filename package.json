@@ -20,6 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^2.3.6",
     "gulp-angular-filesort": "^1.0.4",
     "gulp-autoprefixer": "^1.0.1",
     "gulp-changed": "^1.0.0",
