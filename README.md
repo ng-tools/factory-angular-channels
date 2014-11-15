@@ -1,4 +1,4 @@
-# gulp-channels [![Build Status](https://secure.travis-ci.org/mgcrea/gulp-channels.png?branch=master)](http://travis-ci.org/#!/mgcrea/gulp-channels)
+# gulp-ng-channels [![Build Status](https://secure.travis-ci.org/mgcrea/gulp-ng-channels.png?branch=master)](http://travis-ci.org/#!/mgcrea/gulp-ng-channels)
 
 > Reusable gulp channels for your daily workflow
 
@@ -10,13 +10,13 @@ This plugin requires Gulp `^3.0.0`
 If you haven't used [Gulp](http://gulpjs.com/) before, be sure to check out the [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) guide, as it explains how to create a [Gulpfile](https://github.com/gulpjs/gulp/blob/master/docs/API.md) as well as install and use Gulp plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install gulp-channels --save-dev
+npm install gulp-ng-channels --save-dev
 ```
 
 Once the plugin has been installed, it may be required inside your Gulpfile with this line of JavaScript:
 
 ```js
-var channels = require('gulp-channels')(gulp, config);
+var channels = require('gulp-ng-channels')(gulp, config);
 ```
 
 
@@ -37,7 +37,7 @@ var config = {
 };
 
 var reload = require('browser-sync').reload;
-var channels = require('gulp-channels')(gulp, config);
+var channels = require('gulp-ng-channels')(gulp, config);
 
 var src = config.src;
 gulp.task('src/views', function() {
