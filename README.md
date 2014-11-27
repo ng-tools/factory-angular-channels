@@ -1,6 +1,6 @@
 # gulp-ng-channels [![Build Status](https://secure.travis-ci.org/mgcrea/gulp-ng-channels.png?branch=master)](http://travis-ci.org/#!/mgcrea/gulp-ng-channels)
 
-> Reusable gulp channels for your daily workflow
+> Reusable gulp channels for your daily AngularJS workflow
 
 
 ## Getting Started
@@ -37,15 +37,15 @@ var config = {
 };
 
 var reload = require('browser-sync').reload;
-var channels = require('gulp-ng-channels')(gulp, config);
+var channels = require('gulp-ng-channels');
 
 var src = config.src;
 gulp.task('src/views', function() {
   var views = gulp.src(src.views, {cwd: src.cwd, base: src.cwd})
-    .pipe(channels.views.src())
+    .pipe(channels.views.src(gulp, config)())
     .pipe(reload({stream: true}));
   var index = gulp.src(src.index, {cwd: src.cwd, base: src.cwd})
-    .pipe(channels.index.src())
+    .pipe(channels.index.src(gulp, config)())
     .pipe(reload({stream: true}));
   return merge(views, index);
 });
