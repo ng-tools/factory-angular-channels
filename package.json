@@ -1,6 +1,6 @@
 {
   "name": "gulp-ng-channels",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "All your pipe are belong to us",
   "author": "Olivier Louvignes <olivier@mg-crea.com>",
   "main": "lib/index.js",
@@ -20,7 +20,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.3.11",
     "gulp-6to5": "^1.0.2",
     "gulp-angular-filesort": "^1.0.4",
     "gulp-autoprefixer": "^2.0.0",
@@ -42,11 +41,7 @@
     "gulp-sourcemaps": "^1.2.8",
     "gulp-transformify": "^0.2.4",
     "gulp-uglify": "^1.0.1",
-    "gulp-util": "^3.0.1",
-    "jade": "^1.7.0",
-    "lazypipe": "^0.2.2",
-    "less": "^2.1.0",
-    "main-bower-files": "^2.4.0",
+    "main-bower-files": "^2.4.1",
     "require-dir": "^0.1.0",
     "stream-combiner": "^0.2.1",
     "through2": "^0.6.3"
