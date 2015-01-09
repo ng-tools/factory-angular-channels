@@ -1,4 +1,4 @@
-# gulp-ng-channels [![Build Status](https://secure.travis-ci.org/mgcrea/gulp-ng-channels.png?branch=master)](http://travis-ci.org/#!/mgcrea/gulp-ng-channels)
+# gulp-ng-channels [![Build Status](https://travis-ci.org/ng-tools/gulp-ng-channels.svg?branch=master)](https://travis-ci.org/ng-tools/gulp-ng-channels)
 
 > Reusable gulp channels for your daily AngularJS workflow
 
@@ -72,7 +72,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 **Olivier Louvignes**
 
 + http://olouv.com
-+ http://github.com/mgcrea
++ http://github.com/ng-tools
 
 
 ## Copyright and license
