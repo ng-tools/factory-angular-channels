@@ -1,6 +1,6 @@
 {
   "name": "gulp-ng-channels",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "All your pipe are belong to us",
   "author": "Olivier Louvignes <olivier@mg-crea.com>",
   "main": "lib/index.js",
