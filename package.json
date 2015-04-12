@@ -1,6 +1,6 @@
 {
   "name": "factory-angular-channels",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "All your pipe are belong to us",
   "author": "Olivier Louvignes <olivier@mg-crea.com>",
   "main": "lib/index.js",
@@ -45,6 +45,7 @@
     "main-bower-files": "^2.6.2",
     "merge-stream": "^0.1.7",
     "require-dir": "^0.3.0",
+    "resolve-require": "^0.2.0",
     "sort-stream": "^1.0.1",
     "stream-combiner": "^0.2.1",
     "through2": "^0.6.5",
