@@ -1,24 +1,14 @@
-# gulp-ng-channels [![Build Status](https://travis-ci.org/ng-tools/gulp-ng-channels.svg?branch=master)](https://travis-ci.org/ng-tools/gulp-ng-channels)
+# factory-angular-channels [![Build Status](https://travis-ci.org/ng-tools/factory-angular-channels.svg?branch=master)](https://travis-ci.org/ng-tools/factory-angular-channels)
 
-> Reusable gulp channels for your daily AngularJS workflow
-
+> Reusable transform stream channels for your daily AngularJS workflow
 
 ## Getting Started
 
-This plugin requires Gulp `^3.0.0`
-
-If you haven't used [Gulp](http://gulpjs.com/) before, be sure to check out the [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) guide, as it explains how to create a [Gulpfile](https://github.com/gulpjs/gulp/blob/master/docs/API.md) as well as install and use Gulp plugins. Once you're familiar with that process, you may install this plugin with this command:
+This plugin requires [ngFactory]() `^0.6`
 
 ```shell
-npm install gulp-ng-channels --save-dev
+npm install factory-angular-channels --save-dev
 ```
-
-Once the plugin has been installed, it may be required inside your Gulpfile with this line of JavaScript:
-
-```js
-var channels = require('gulp-ng-channels')(gulp, config);
-```
-
 
 ## Usage
 
@@ -37,29 +27,19 @@ var config = {
 };
 
 var reload = require('browser-sync').reload;
-var channels = require('gulp-ng-channels');
+var channels = require('factory-angular-channels');
 
 var src = config.src;
 gulp.task('src/views', function() {
   var views = gulp.src(src.views, {cwd: src.cwd, base: src.cwd})
-    .pipe(channels.views.src(gulp, config)())
+    .pipe(channels.views.src.bind(config)())
     .pipe(reload({stream: true}));
   var index = gulp.src(src.index, {cwd: src.cwd, base: src.cwd})
-    .pipe(channels.index.src(gulp, config)())
+    .pipe(channels.index.src.bind(config)())
     .pipe(reload({stream: true}));
   return merge(views, index);
 });
 ```
-
-## Options
-
-#### gulp (Object)
-
-- Gulp instance to reuse
-
-#### config (Objects)
-
-- `Object` - Gulp paths configuration to use
 
 
 ## Contributing
