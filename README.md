@@ -44,7 +44,8 @@ gulp.task('src/views', function() {
 
 ## Contributing
 
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
+In lieu of a formal styleguide, take care to maintain the existing coding style.
+Please submit all pull requests the against master branch. If your unit test contains javascript patches or features, you should include relevant unit tests. Thanks!
 
 
 ## Authors
