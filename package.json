@@ -46,6 +46,6 @@
     "sort-stream": "^1.0.1",
     "stream-combiner2": "^1.0.2",
     "through2": "^0.6.5",
-    "vinyl-fs": "^1.0.0"
+    "vinyl-fs": "^0.3.13"
   }
 }
