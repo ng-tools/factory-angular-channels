@@ -41,11 +41,15 @@
     "lodash": "^3.9.3",
     "main-bower-files": "^2.8.2",
     "merge-stream": "^0.1.7",
+    "merge2": "^0.3.6",
     "require-dir": "^0.3.0",
     "resolve-require": "^0.2.0",
     "sort-stream": "^1.0.1",
     "stream-combiner2": "^1.0.2",
     "through2": "^2.0.0",
     "vinyl-fs": "^0.3.13"
+  },
+  "devDependencies": {
+    "babel-plugin-angular2-annotations": "^1.1.0"
   }
 }
