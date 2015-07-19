@@ -1,6 +1,6 @@
 {
   "name": "factory-angular-channels",
-  "version": "0.7.3",
+  "version": "0.8.0",
   "description": "All your pipe are belong to us",
   "author": "Olivier Louvignes <olivier@mg-crea.com>",
   "main": "lib/index.js",
