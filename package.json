@@ -20,6 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "chalk": "^1.1.0",
     "gulp-angular-filesort": "^1.1.1",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-babel": "^5.1.0",
@@ -36,6 +37,7 @@
     "gulp-ngtemplate": "^0.2.5",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.2",
+    "gulp-size": "^1.2.3",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
     "lodash": "^3.9.3",

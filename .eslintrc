@@ -8,7 +8,9 @@
     "eqeqeq": 2,
     "curly": [2, "multi-line"],
     "quotes": [2, "single"],
+    "no-use-before-define": [2, "nofunc"],
     "no-underscore-dangle": 0,
-    "no-unused-vars": 0
+    "no-unused-expressions": 0,
+    "no-unused-vars": 2
   }
 }
