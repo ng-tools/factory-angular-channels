@@ -5,7 +5,7 @@
   "author": "Olivier Louvignes <olivier@mg-crea.com>",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "eslint lib"
   },
   "homepage": "https://github.com/ng-tools/factory-angular-channels",
   "repository": {
