@@ -1,6 +1,6 @@
 {
   "name": "factory-angular-channels",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "dependencies": {
     "autoprefixer": {
       "version": "6.3.1",
